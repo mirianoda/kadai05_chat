@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Dongle:wght@300;400;700&family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>PariPita</title>
+</head>
+
+<body>
+<header>
+    <img src="img/logo_img.jpeg" alt="">
+    <p class="logo">PariPita</p>
+    <div class="user">
+        <img src="" id="prof">
+        <a id="out">ログアウトはこちら</a>
+    </div>
+</header>
+
+<div class="main">
+    <!-- コンテンツ表示画面 -->
+    <div class="member">
+        <h1>メンバー</h1>
+        <input type="text" id="member" placeholder="ここから追加">
+        <a id="memSend"><span>＋</span></a>
+        <div id="memOutput"></div>
+    </div>
+
+    <div class="input"> 
+        <select type="text" id="name">
+            <option selected>▼メンバーを選択</option>
+        </select>が
+        <input type="number" id="text" min="1" step="1" placeholder="支払った金額を入力">円払った！
+        <div class="button">
+        <a id="send"><span>保存</span></a>
+        </div>
+    </div>
+    <div id="output"></div>
+    <div class="kekka">
+        <a id="kekka_btn">パリピタする</a>
+        <div class="kekka_area">
+            <p id="kekka_text"></p>
+        </div>
+    </div>
+    <!--/ コンテンツ表示画面 -->
+</div>
+
+<script type="module" src="main.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
